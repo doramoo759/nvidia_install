@@ -49,5 +49,5 @@ sudo groupadd -f docker
 sudo usermod -aG docker $USER
 
 echo "✅ Docker 설치 완료!"
-echo "⚠️ 터미널을 완전히 닫았다가 다시 열어야 권한 변경 적용됨."
-echo "테스트: docker run hello-world"
+echo "⚠️ 재부팅 이후 권한 변경 적용됨."
+
